@@ -18,7 +18,7 @@ const JokesComp = () => {
             setLoading(false)
         })
         .catch(error => {
-            console.error('Error Fetching joke',error)
+            console.error('Error Fetching joke ',error)
             setJoke("Oops ! something went wrong")
             setLoading(true)
         })
